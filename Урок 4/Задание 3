@@ -4,4 +4,4 @@ num_2 = num % 100 // 10
 num_3 = num // 100
 print(num_1, num_2, num_3)
 print("Сумма цифр числа", num, "равна", num_1 + num_2 + num_3)
-print("Произведение цифр числа", num, "равно", num_1 * num_2 * num_3
+print("Произведение цифр числа", num, "равно", num_1 * num_2 * num_3)
