@@ -1,1 +1,6 @@
-
+r = int(input())
+k = int(input())
+n = int(input())
+output_r = n * r + (n * k) // 100
+output_k = (n * k) % 100
+print("За", n, "мячей нужно заплатить", output_r, "рублей и", output_k, "копеек")
