@@ -1,1 +1,5 @@
-
+input_seconds = int(input())
+output_seconds = input_seconds % 60
+output_minutes = input_seconds // 60 % 60
+output_hours = input_seconds // 3600
+print(output_hours, output_minutes, output_seconds)
